@@ -52,7 +52,16 @@ run {
 }
 
 application {
-    mainClass = "polyhedra.CreatePolyhedra"
+    mainClass = "edu.odu.cs.cs330.Storage"
+}
+
+testing {
+    suites {
+        test {
+            useJUnitJupiter()
+
+        }
+    }
 }
 
 test {
